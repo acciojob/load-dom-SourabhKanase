@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-	let body=document.getElementByTagName("body");
-	body.innerText="DOM load success";
-}
+    let body = document.body;
+    body.innerText = "DOM load success";
+});
+
